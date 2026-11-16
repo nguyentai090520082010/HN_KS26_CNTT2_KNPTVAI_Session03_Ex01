@@ -17,9 +17,9 @@
 [Tone] Chính xác, khách quan, không thêm thắt văn phong cảm xúc, tuyệt đối không tự ý bịa đặt thông tin.
 
 [Extras] 
-Dưới đây là ví dụ Few-shot mẫu để định hình kết quả:
+Dưới đây là 2 ví dụ Few-shot mẫu để định hình kết quả:
 
----Ví dụ--
+--- Ví dụ mẫu 1 ---
 [Input]: "Chào bộ phận HR, mình là nguyễn đức tài, sđt: 0965942358, email: nguyentai09052010@gmail.com. Mình ứng tuyển vị trí lập trình viên, đã có 2 năm kinh nghiệm làm việc."
 [Output]:
 | Trường thông tin | Giá trị trích xuất |
@@ -31,13 +31,35 @@ Dưới đây là ví dụ Few-shot mẫu để định hình kết quả:
 | Số năm kinh nghiệm | 2 |
 | Kỹ năng chính | Python,C++ |
 
-```
-json
+```json
 {
   "name": "Nguyễn Đức Tài",
   "phone": "+84965942358",
   "email": "nguyentai09052010@gmail.com",
   "position": "Lập trình viên",
   "experience_years": 2,
-  "skills": Python,C++
+  "skills": ["Python","C++"]
+}
+```
+
+--- Ví dụ mẫu 2 ---
+[Input]: "Họ tên: Tạ Hà Viet. SĐT +84 988 111 222, email bichtran@yahoo.com. Ứng tuyển Frontend Intern, đã có kinh nghiệm 1 năm làm việc , thành thạo HTML, CSS, JavaScript."
+[Output]:
+| Trường thông tin | Giá trị trích xuất |
+| :--- | :--- |
+| Họ tên | Trần Thị Bích |
+| Số điện thoại | +84988111222 |
+| Email | Haviet@yahoo.com |
+| Vị trí ứng tuyển | Frontend Intern |
+| Số năm kinh nghiệm | 1 |
+| Kỹ năng chính | HTML, CSS, JavaScript |
+
+```json
+{
+  "name": "Tạ Hà Việt",
+  "phone": "+84988111222",
+  "email": "Haviet@yahoo.com",
+  "position": "Frontend Intern",
+  "experience_years": 0,
+  "skills": ["HTML", "CSS", "JavaScript"]
 }
