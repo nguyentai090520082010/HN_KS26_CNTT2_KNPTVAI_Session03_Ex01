@@ -39,5 +39,5 @@ json
   "email": "nguyentai09052010@gmail.com",
   "position": "Lập trình viên",
   "experience_years": 2,
-  "skills": []
+  "skills": Python,C++
 }
