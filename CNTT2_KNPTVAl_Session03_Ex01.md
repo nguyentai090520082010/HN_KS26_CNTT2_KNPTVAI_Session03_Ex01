@@ -17,9 +17,9 @@
 [Tone] Chính xác, khách quan, không thêm thắt văn phong cảm xúc, tuyệt đối không tự ý bịa đặt thông tin.
 
 [Extras] 
-Dưới đây là 2 ví dụ Few-shot mẫu để định hình kết quả:
+Dưới đây là ví dụ Few-shot mẫu để định hình kết quả:
 
---- Ví dụ mẫu 1 ---
+---Ví dụ--
 [Input]: "Chào bộ phận HR, mình là nguyễn đức tài, sđt: 0965942358, email: nguyentai09052010@gmail.com. Mình ứng tuyển vị trí lập trình viên, đã có 2 năm kinh nghiệm làm việc."
 [Output]:
 | Trường thông tin | Giá trị trích xuất |
