@@ -29,7 +29,7 @@ Dưới đây là ví dụ Few-shot mẫu để định hình kết quả:
 | Email | nguyentai09052010@gmail.com |
 | Vị trí ứng tuyển | Lập trình viên |
 | Số năm kinh nghiệm | 2 |
-| Kỹ năng chính | [] |
+| Kỹ năng chính | Python,C++ |
 
 ```
 json
